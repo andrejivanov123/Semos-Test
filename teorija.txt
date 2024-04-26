@@ -1,0 +1,28 @@
+1. WWW (World Wide Web) e informaciski sistem koj ovozmozuva povrzuvanje na dokumenti na internetot preku liknovi.
+
+2. Baranje od korisnikot(HTTP request) i odgovor od serverot(HTTP response).
+
+3. Node.js e JavaScript okolina koja ovozmozuva kreiranje na serveri i veb aplikacii, voedno bekend delot na JS. Express.js e frejmvork vo Node.js koj pomaga vo 
+   kreiranje na veb aplikacija so koristenje middlewares i rutiranje.
+
+4. MVC (Model-View-Controller) e arhitektura koja se korista za podobra struktura na kod vo koj modelot gi menadzira kompnentite, view dava dobra vizuelna reprezentacija na modelot
+   i kontrolorot gi ima funkcionalnostite i gi exportira nadvor vo glavniot JS fajl.
+
+5. Ruti se pateki koi go hendlaat kodot na daden URL.
+
+6. Moduli se nacin na organizacija na kod, kade kodot e rascepkan na povekje pomali fajlovi. Export se koristi za da mu se kaze na kodot deka nekoja funkcija kje moze da bide iznesena
+   i moze da se koristi nadvor od momentalniot fajl, a import se koristi za nekoja exportirana funkcija od drug fajl da moze da se koristi vo momentalniot fajl.
+
+7. Veb servisi ili API (Application Programming Services) se servisi koi ovozmozuvaat polesna sintaksa na kompleksen kod. Postoi lokalen API koi nie sami go kreirame, browser API koi
+   ni go ovozmozuva prelistuvacot i third-party koi nie sami gi pronajduvame od nekade na internetot.
+
+8. JSON Web Token e objekt koj se koristi bezbedno da se ispratat podatoci preku internetot. Klientska aplikacija isprakja token za avtorizacija na nasiot bekend a nie validirame
+   vrakjame avtentikacija.
+
+9. MongoDB e NoSQL databaza na dokumenti koja e slicna na JSON no pogolema i pofleksibilna.
+
+10. MongoDB e databaza, mongoose e zivotno :D. Ne, mongoose e alatka koja ovozmozuva nacin na modeliranje na podatoci i go zamenuva defaultniot MongoDB driver.
+
+11. Vo JS kodot odi odozgora pa nadolu i e sinhron, sinhrona funkcija e funkcija koja dodeka se izvrsuva nemoze da se prodolzi na naredniot red kod ili nemoze istovremeno nekoja
+    druga funkcija da se izvrsuva sto e pomala, asinhornata funkcija gi ovozmozuva ovie raboti. Asinhrona e podobra praksa da se koristi zatoa sto ako edna aplikacija e napravena samo
+    so sinhroni funkcii, moze nekoja funkcija da traze mnogu vreme za izvrsuvanje i koga korisnikot kje ja otvori aplikacijata kje ima golem zastoj i bavno loadiranje.
